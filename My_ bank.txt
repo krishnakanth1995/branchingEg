@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BootStrap 3</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('Pictures/gerypic.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Bookman Old Style;
+        } 
+        
+        .footer-top{
+            background:#000000;
+            padding:80px 0;
+
+        }
+        .segement-one h3 {
+            color: #fff;
+            font-family: Poppins;
+            text-transform: uppercase;
+        }
+        .segement-two p {
+            color: #fff;
+            font-family:Calibri;
+            
+        }
+        .segement-three p {
+            color: #fff;
+            font-family: Calibri;
+        }
+        .segement-two h3 {
+            color: #fff;
+            font-family: Poppins;
+            text-transform: uppercase;
+        }
+        .segement-two h3:before{
+            content: '|';
+            color:red;
+            padding-right:10px;
+        }
+
+        .segement-one ul {
+            margin:0;
+            padding:0;
+            list-style:none;
+
+        }
+        .segement-one ul li{
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+            line-height: 40px;
+        }
+        .segement-one ul li a{
+            color:#999;
+            text-decoration: none;
+        }
+        .segement-two h3:before {
+            content: '|';
+            color: red;
+            padding-right: 10px;
+        }
+        .segement-three h3{
+            color: #fff;
+            font-family: Poppins;
+            text-transform:uppercase;
+        }
+        .segement-three form input[type=submit]{
+            background:red;
+            border:none;
+            padding:3px 15px;
+            margin-left:2px;
+            color:#fff;
+            text-transform:uppercase;
+        }
+        .segement-three h3:before {
+            content: '|';
+            color: red;
+            padding-right: 10px;
+        }
+
+        .footer-bottom-text {
+            text-align: center;
+            background: #000;
+            line-height: 75px;
+            color: #fff;
+            font-family: Poppins;
+        }
+        .container-fluid{
+            margin-left:10px;
+            margin-right:10px;
+        }
+
+
+
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-static-top">
+
+        <div class="container">
+
+            <a href="#" class="navbar-brand">My Bank</a>
+
+
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class=" nav navbar-nav ">
+
+                    <li class="active"><a href="MybankEg.html">Home</a></li>
+
+                    <li class="dropdown">
+
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Products <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Accounts and Deposits</a></li>
+                            <li><a href="#">Debit Cards</a></li>
+                            <li><a href="CreditCard.html">Credit Cards</a></li>
+                            <li><a href="#">Loans</a></li>
+                            <li><a href="#">Investments</a></li>
+                            <li><a href="#">Insurance</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="dropdown">
+
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Online Service</a></li>
+                            <li><a href="#">Inperson Services</a></li>
+                            <li><a href="#">Mobile Banking</a></li>
+                            <li><a href="#">Other Services</a></li>
+
+                        </ul>
+
+                    </li>
+                    <li class="dropdown">
+
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Interest Rates</a></li>
+                            <li><a href="#">Forex Rates</a></li>
+                            <li><a href="#">Forms and Documents</a></li>
+                            <li><a href="#">Services Charges</a></li>
+                            <li><a href="#">Other Services</a></li>
+
+
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+                    <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+         
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" col-md-3 col-sm-6 col-xs-12">
+                <h2>My Bank India,</h2>
+                My Bank is India’s largest international bank with 100 branches in 43 cities, and we have been operating here since 1858. Key clients segments include Corporate & Institutional Banking,
+                Commercial & Private Banking as well as Retail Banking.
+                <h2>Our Customers and Clients Come First</h2>
+                We use our global capabilities and deep local knowledge in India to provide a wide-range of products and services to meet the needs of our individual and business customers. We build our products and services around our customers and have a number of commitments
+                to help ensure that our customers have the best possible experience with us.
+                <h2>
+                    Global and India Sponsorships
+                </h2>
+                <ul class="global">
+                    <li><a href="#">Title Sponser for Sun Risers Hyderabad</a></li>
+                    <li><a href="#">INDIA Today Bussines Leader Awards</a></li>
+                    <li><a href="#">Title Sponser Mumbai Marathon 2020</a></li>
+
+                </ul>
+
+                <h2> Awards and Recognition</h2>
+                <h6>2019</h6>
+                <ul class="awards">
+                    <li><a href="#">Most Innovative Digital Bank in India (International Finance Awards)</a></li>
+                    <li><a href="#">Asian Private Banker Excellence in Private Banking India Award</a></li>
+                    <li><a href="#">SiB India won the Social Impact Project of the Year (UK-India Awards)</a></li>
+                    <li><a href="#">Best Performing Foreign Bank (UTI-CNBC TV18 Financial Advisor Awards)</a></li>
+                </ul>
+
+              
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 segement-one">
+                        <h3>My bank</h3>
+                        <ul>
+                            <li><a href="#"></a>About us</li>
+                            <li><a href="#">Bank with us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Reach Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segement-two">
+                        <h3>Follow us </h3>
+                        <p> Please to follow us on our social media handles in order to keep updated.</p>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                        <a href="#"><i class="fa fa-facebook-offical" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segement-three">
+                        <h3>News Letter</h3>
+                        <p> Subscribe to our news letter to get latest trends in the Banking world</p>
+                        <form action="">
+                            <input type="email" />
+                            <input type="submit" value="Subscribe"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom-text">All Rights reserverd by &copy;My Bank.2020</p>
+
+
+    </footer>
+
+</body>
+</html>
