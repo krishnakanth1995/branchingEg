@@ -253,8 +253,9 @@
         </div>
         <p class="footer-bottom-text">All Rights reserverd by &copy;My Bank.2020</p>
 
-
+	<p>End of the page </p>
     </footer>
+
 
 </body>
 </html>
